@@ -1,0 +1,113 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    background-color: #000000;
+}
+.logo-kenzieflix{
+    margin-top: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-selector{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 42px;
+    justify-content: center;
+}
+.container{
+    max-width: 700px; 
+    margin-left: 272px;
+    margin-right: 290px;
+    text-align: center;
+    justify-content: center;
+}
+.users-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    max-width: 700px;
+    height: 194px;
+    margin-top: 61px;
+    margin-left: 272px;
+    gap: 26px;
+}
+.user{
+    width: 160px;
+    height: 160px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+.user img:hover{
+    transform: scale(90%);
+}
+.user a{
+    width: 80px;
+    height: 18px;
+    font-weight: 600;   
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-decoration: none;
+    margin-top: 16px;
+}
+.user a:hover{
+    color: #FFFFFF;
+}
+.user-add{
+    width: 160px;
+    height: 190px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-add a{
+    width: 105px;
+    height: 18px;
+    font-weight: 600;   
+    font-size: 14px;
+    line-height: 18px;
+    color: #9C9C9C;
+    text-decoration: none;
+    margin-top: 16px;
+}
+.user-add a:hover{
+    color: #FFFFFF;
+}
+.adicionar-avatar{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E20;
+}
+.adicionar-avatar:hover{
+    transform: scale(90%);
+}
+.adicionar-avatar img{
+    position: absolute;
+}
+.cinza:hover{
+    opacity: 0;
+}
