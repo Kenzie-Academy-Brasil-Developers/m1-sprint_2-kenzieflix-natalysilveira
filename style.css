@@ -111,3 +111,24 @@ body{
 .cinza:hover{
     opacity: 0;
 }
+footer{
+    margin-top: 182px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1.5px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
